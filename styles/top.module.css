@@ -1,0 +1,25 @@
+.container {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .left_div {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    
+  }
+  .right_div {
+    display: flex;
+    justify-content: space-around;
+  }
+  .flex {
+    display: flex;
+  }
+
+  
+  @media only screen and (max-width: 900px) {
+    .left_div{
+        overflow-x: scroll;
+    }
+  }

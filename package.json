@@ -1,0 +1,35 @@
+{
+  "name": "coinmcap",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.7.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.10.12",
+    "@mui/styled-engine-sc": "^5.10.6",
+    "@mui/styles": "^5.6.2",
+    "axios": "^0.27.2",
+    "chart.js": "^3.5.1",
+    "moment": "^2.29.4",
+    "next": "^12.1.1-canary.6",
+    "prop-types": "^15.8.1",
+    "react": "18.1.0",
+    "react-chartjs-2": "^3.0.4",
+    "react-dom": "18.1.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.6"
+  },
+  "proxy": "https://d2cc-2405-201-200d-1034-59-a0a5-a038-c50f.ngrok.io/api/user/news"
+}
